@@ -37,7 +37,7 @@ function displayList() {
     lists.innerHTML = ''
     todos.forEach((ele, index) => {
         let text = ''
-        text += `<li class='li'>${ele}<div>
+        text += `<li class='li'><span class="element">${ele}</span><div>
         <button onclick = deleteTodo(${index}) class="delete">delete</button>
         <button onclick = editTodo(${index}) class="edit">edit</button></div></li>`
         lists.innerHTML += text

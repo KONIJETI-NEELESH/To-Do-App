@@ -12,10 +12,15 @@ body {
     width: 100%;
 }
 
+#input-todo {
+    width: 300px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 600px;
+    margin: auto;
     align-items: center;
     margin-top: 15%;
     gap: 10px;
@@ -66,6 +71,10 @@ input:focus {
     margin: 1rem;
     background-color: none;
     font-weight: bold;
+}
+
+.element {
+    width: 300px;
 }
 
 #lists {
