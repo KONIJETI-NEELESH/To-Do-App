@@ -19,7 +19,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
     margin: auto;
     align-items: center;
     margin-top: 15%;
@@ -74,7 +74,7 @@ input:focus {
 }
 
 .element {
-    width: 300px;
+    /* width: 100px; */
 }
 
 #lists {
